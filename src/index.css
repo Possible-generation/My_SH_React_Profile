@@ -1,13 +1,640 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.name {
+  color: black;
+  width: 300px;
+  height: 41px;
+  padding-left: 120px;
+  padding-top: 29px;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 41px;
+  letter-spacing: 0.03em;
+}
+.header {
+  width: 1440px;
+  height: 750px;
+  left: 0%;
+  top: 0%;
+  background: #ffffff;
+  display: flex;
+}
+.Navbar {
+  position: absolute;
+  width: 1440px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+}
+.nav {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 348px;
+  height: 20px;
+  left: 404px;
+  top: 39px;
+}
+.about {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.service {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.contact {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.project {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  width: 114px;
+  height: 45px;
+  left: 1206px;
+  top: 27px;
+}
+.linkin {
+  width: 45px;
+  height: 45px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.linkin2 {
+  position: absolute;
+  width: 18px;
+  height: 23px;
+  left: 14px;
+  top: 11px;
+}
+.Ellipse2 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  position: absolute;
+  width: 591px;
+  height: 283px;
+  left: 120px;
+  top: 233px;
+}
+.there {
+  width: 79px;
+  height: 25px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  color: #2351dc;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.name2 {
+  width: 222px;
+  height: 33px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 33px;
+  color: #2351dc;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.top-notch {
+  width: 591px;
+  height: 144px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 72px;
+  color: #000000;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.small-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 114px;
+  height: 45px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.linkin3 {
+  width: 18px;
+  height: 23px;
+  left: 14px;
+  top: 11px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo3 {
+  width: 45px;
+  height: 45px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.profile-pic {
+  position: absolute;
+  width: 628px;
+  height: 750px;
+  left: 812px;
+  top: 0px;
+  background: #d3dcf8;
+}
+
+.pic {
+  position: absolute;
+  width: 500px;
+  height: 375px;
+
+  padding-top: 132px;
+  padding-left: 30px;
+}
+.about2 {
+  width: 1440px;
+  height: 434px;
+  background-color: #f6f8fe;
+}
+.about-n {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0%;
+  gap: 12px;
+  position: absolute;
+  width: 465px;
+  height: 208px;
+
+  left: 487px;
+}
+.about-3 {
+  width: 213px;
+  height: 53px;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 120px;
+}
+.about-note {
+  width: 465px;
+  height: 84px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: #4d4d4d;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.logo-new {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 114px;
+  height: 45px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.skill {
+  width: 1440px;
+  height: 698px;
+  background-color: #ffffff;
+}
+.skill1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  position: absolute;
+  width: 465px;
+  height: 93px;
+  left: 120px;
+  padding-top: 96px;
+}
+.skill-name {
+  width: 192px;
+  height: 53px;
+  font-size: 48px;
+  text-align: center;
+  color: #000000;
+}
+.skill-name2 {
+  width: 465px;
+  height: 28px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #4d4d4d;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.skill2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  position: absolute;
+  width: 517px;
+  height: 320px;
+  left: 120px;
+  padding-top: 251px;
+}
+.skill-21 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 517px;
+  height: 80px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.skill-logo {
+  width: 80px;
+  height: 80px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.skill.logo2 {
+  width: 427px;
+  height: 54px;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.skill.logo3 {
+  position: absolute;
+  width: 427px;
+  height: 9px;
+  left: 90px;
+  padding-top: 58px;
+}
+.java {
+  width: 427px;
+  height: 33px;
+  left: 90px;
+  margin-top: 13px;
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 33px;
+}
+.skill3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  position: absolute;
+  width: 517px;
+  height: 320px;
+  left: 677px;
+  padding-top: 251px;
+}
+.head {
+  width: 1440px;
+  height: 1329px;
+  background-color: #fbfcfe;
+}
+.render {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px;
+
+  position: absolute;
+  width: 499px;
+  height: 164px;
+  left: 103px;
+  padding-top: 97px;
+}
+.Services-Render {
+  width: 388px;
+  height: 66px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 66px;
+}
+.frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 20px;
+
+  position: absolute;
+  width: 1233px;
+  height: 888px;
+  left: 103px;
+  padding-top: 285px;
+}
+.frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+
+  width: 1201px;
+  height: 272px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame11 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  width: 387px;
+  height: 272px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.present {
+  width: 64px;
+  height: 64px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.train {
+  width: 349px;
+  height: 28px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+}
+.offers {
+  width: 387px;
+  height: 54px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #4d4d4d;
+}
+.contact-1 {
+  width: 1440px;
+  height: 623px;
+  flex: none;
+  order: 6;
+  flex-grow: 0;
+  background: #ffffff;
+}
+.touch {
+  position: absolute;
+  width: 499px;
+  height: 370.79px;
+  left: 105px;
+}
+.touch-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px;
+  /* position: absolute; */
+  width: 499px;
+  height: 221px;
+  left: 105px;
+  padding-top: 126px;
+}
+.Get {
+  width: 288px;
+  height: 66px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 66px;
+  color: #000000;
+}
+.new-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 199px;
+  height: 45px;
+}
+.pos {
+  width: 61px;
+  height: 27px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.message {
+  position: absolute;
+  width: 233.59px;
+  height: 116.79px;
+}
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  position: absolute;
+  width: 233.59px;
+  height: 42px;
+}
+.email-box {
+  width: 38.59px;
+  height: 36.34px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.com {
+  width: 179px;
+  height: 22px;
+
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+.phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+
+  position: absolute;
+  width: 250px;
+  height: 42px;
+  margin-top: 79px;
+}
+.footer {
+  width: 1440px;
+  height: 403px;
+
+  background: #07102c;
+  flex: none;
+  order: 7;
+  flex-grow: 0;
+}
+.footer-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 1020px;
+
+  position: absolute;
+  width: 300px;
+  height: 79px;
+  left: 593px;
+
+  background: #07102c;
+}
+.jos {
+  width: 300px;
+  height: 49px;
+  padding-top: 60px;
+
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  position: absolute;
+  width: 183px;
+  height: 45px;
+  left: 628px;
+  padding-top: 150px;
+}
+.copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 300px;
+  height: 22px;
+  left: 628px;
+  padding-top: 250px;
+}
+.copy {
+  width: 300px;
+  height: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
 }
