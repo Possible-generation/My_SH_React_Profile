@@ -13,7 +13,7 @@ function About() {
         <div class='about-n'>
           <div class='about-3'>About Me</div>
           <div class='about-note'>
-            Seyi Onifade is a passionate and goal driven Techpreneur whose
+            Joshua Ajigbotosho is a passionate and goal driven Techpreneur whose
             interest is in using technology to build solutions to solve real
             world problems.
           </div>
@@ -29,7 +29,7 @@ function About() {
       <div class='skill'>
         <div class='skill1'>
           <div class='skill-name'>My skills</div>
-          <div class='skill-name2'> Here are a few skills i possess</div>
+          <div class='skill-name2'> These are a few skills i possess</div>
         </div>
         <div class='skill2'>
           <div class='skill-21'>
